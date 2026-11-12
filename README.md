@@ -10,7 +10,7 @@ Agents и n8n assistant находятся в prewiew
 
 n8n assistant подключен через API Deepseek в отдельной песочнице (Sandbox) и подключен поисковый движок (SearXNG)
 реализовано 2 агента
-1. **Speak_English**
+### 1. Agent **Speak_English**
 
 **Тип:** Agent  для создания контента на основе запроса и запись в БД
 
@@ -48,7 +48,7 @@ AI/ML:         | Deepseek API |
 
 ## 🤖 AI-ассистенты и чат-боты
 
-### 1. 🏠 Home Bot — AI-помощник с генерацией изображений и поддержкой голоса
+### 2. 🏠 Home Bot — AI-помощник с генерацией изображений и поддержкой голоса
 **Тип:** Telegram-бот с векторной базой данных  
 **Задача:** Автоматизация ответов на вопросы клиентов с использованием корпоративной базы знаний
 
@@ -75,12 +75,12 @@ AI/ML:         | OpenAI GPT 5 nano | Imagen 1.5 OpenAI | Trascribe audio |
 - Поддержка **текста и голоса**
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Home_Bot/home_bot.md)
+- [Подробное описание и Схема workflow](./Home_Bot/home_bot.pdf)
 
 
 ---
 
-### 2. 🎓 Personal Mentor — Персональный ментор для обучения
+### 3. 🎓 Personal Mentor — Персональный ментор для обучения
 **Тип:** Telegram-бот для создания учебных планов и контента  
 **Задача:** Автоматизация процесса обучения сотрудников с персонализированными планами
 
@@ -108,12 +108,12 @@ AI/ML:         OpenAI GPT-5 mini, LangChain Agents
 - **100% персонализация** под пользователя
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Personal_Mentor_Bot/personal_mentor.md)
+- [Подробное описание и Схема workflow](./Personal_Mentor_Bot/personal_mentor.pdf)
 
 
 ---
 
-### 3. 💻 CodeLowBot — Помощник по программированию на C
+### 4. 💻 CodeLowBot — Помощник по программированию на C
 **Тип:** Telegram-бот для обучения программированию  
 **Задача:** Помощь в изучении основ языка C с генерацией примеров кода
 
@@ -141,12 +141,12 @@ AI/ML:         Google Gemini 2.5 Flash, LangChain Memory
 - **Контекстные ответы** с учетом истории диалога
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Code_Bot/coder_bot.md)
+- [Подробное описание и Схема workflow](./Code_Bot/coder_bot.pdf)
 
 
 ---
 
-### 4. 🚗 Victor Engineer — Инженерный помощник для проектирования
+### 5. 🚗 Victor Engineer — Инженерный помощник для проектирования
 **Тип:** Telegram-бот для расчетов и проектирования вездеходов  
 **Задача:** Автоматизация инженерных расчетов на основе пользовательских данных
 
@@ -173,42 +173,10 @@ AI/ML:         Google Gemini 2.5 Flash, LangChain Memory
 - Время на создание спецификации: **5 минут вместо 2 часов**
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Engineer_Bot/engineer_bot.md)
+- [Подробное описание и Схема workflow](./Engineer_Bot/engineer_bot.pdf)
 
 ---
 
-### 5. 🏡 Home Assistant — Личный AI-ассистент
-**Тип:** Многофункциональный Telegram-бот для личной продуктивности  
-**Задача:** Автоматизация повседневных задач и коммуникации
-
-#### 📊 Функционал:
-- ✅ Создание событий в Google Calendar по голосу/тексту
-- ✅ Отправка email из Telegram
-- ✅ Поиск актуальной информации в интернете (Tavily)
-- ✅ Генерация изображений ()
-- ✅ Математические вычисления (калькулятор)
-- ✅ Работа с контактами из базы данных
-
-#### 🛠️ Технологический стек:
-```
-Платформа:     n8n workflow automation
-AI/ML:         OpenAI GPT-4, DALL-E 3, Tavily Search
-База данных:   Baserow, Supabase (PostgreSQL), Google Sheets
-Интеграции:    Google Calendar, Gmail, Google Contacts
-Хранилище:     Google Drive, Google Docs
-Мессенджер:    Telegram Bot API
-```
-
-#### 📈 Результаты:
-- **Экономия 2-3 часа ежедневно**
-- **7 инструментов в одном** боте
-- **Обработка голоса и текста**
-- **Мгновенное** создание событий и писем
-
-#### 🔗 Документация:
-- [Подробное описание и Схема workflow]()
-
----
 
 ## 📝 Контент-генерация и аналитика
 
@@ -239,7 +207,7 @@ AI/ML:         OpenAI GPT-4.1
 - **Экономия 15-20 часов** в месяц
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow]()
+- [Подробное описание и Схема workflow](./Content_Generator/content_generator.pdf)
 ---
 
 ### 7. 📊 Vacancy Analyzer — Анализатор вакансий
@@ -390,9 +358,8 @@ Data tables:       PostgreSQL
 
 #### 🔗 Документация:
 
-- [Схема бота](./Driver_Bot/driver_bot.md)
+- [Схема бота](./Driver_Bot/driver_bot.pdf)
 
-- [Схема базы данных](./Driver_Bot/image/download_file_to_vdb.png)
 
 ---
 
@@ -400,11 +367,11 @@ Data tables:       PostgreSQL
 
 | № | Проект | Тип | AI-модель | Основные интеграции | Сложность | Срок |
 |---|--------|-----|-----------|---------------------|-----------|------|
-| 1 | Home Bot | Чат-бот с БД | GPT-4, Whisper | Telegram | ⭐⭐⭐ | 5 дней |
-| 2 | Personal Mentor | Образовательный бот | GPT-4, Tavily | Telegram, n8n Tables, Google | ⭐⭐⭐⭐⭐ | 10 дней |
-| 3 | CodeLowBot | Обучающий бот | Gemini 2.5 Flash | Telegram, LangChain | ⭐⭐ | 3 дня |
-| 4 | Victor Engineer | Инженерный бот | GPT-4 | Telegram, Google Sheets | ⭐⭐⭐ |5 дней |
-| 5 | Home Assistant | Личный ассистент | GPT-4, DALL-E 3 | Telegram, Gmail, Calendar, Tavily | ⭐⭐ | 5 дней |
+| 1 | Speak_English | Agent | Deepseek  | Telegram, Memory, Schedule, Table | ⭐⭐ | 2 дня  |
+| 2 | Home Bot | Чат-бот с БД | GPT-4, Whisper | Telegram | ⭐⭐⭐ | 5 дней |
+| 3 | Personal Mentor | Образовательный бот | GPT-4, Tavily | Telegram, n8n Tables, Google | ⭐⭐⭐⭐⭐ | 10 дней |
+| 4 | CodeLowBot | Обучающий бот | Gemini 2.5 Flash | Telegram, LangChain | ⭐⭐ | 3 дня |
+| 5 | Victor Engineer | Инженерный бот | GPT-4 | Telegram, Google Sheets | ⭐⭐⭐ |5 дней |
 | 6 | Content Generator | Контент-генератор | GPT-4.1 | Telegram, Google Workspace | ⭐⭐⭐⭐ | 10 дней |
 | 7 | Vacancy Analyzer | Парсер вакансий | GPT-4 | HH.ru, LinkedIn, Supabase | ⭐⭐ | 3 дня |
 | 8 | Career Consultant | HR-система | GPT-4 | Google Drive, Supabase | ⭐⭐ | 3 дня |

@@ -207,7 +207,7 @@ AI/ML:         OpenAI GPT-4.1
 - **Экономия 15-20 часов** в месяц
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow]()
+- [Подробное описание и Схема workflow](./Content_Generator/content_generator.pdf)
 ---
 
 ### 7. 📊 Vacancy Analyzer — Анализатор вакансий

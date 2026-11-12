@@ -75,7 +75,7 @@ AI/ML:         | OpenAI GPT 5 nano | Imagen 1.5 OpenAI | Trascribe audio |
 - Поддержка **текста и голоса**
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Home_Bot/home_bot.md)
+- [Подробное описание и Схема workflow](./Home_Bot/home_bot.pdf)
 
 
 ---
@@ -108,7 +108,7 @@ AI/ML:         OpenAI GPT-5 mini, LangChain Agents
 - **100% персонализация** под пользователя
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Personal_Mentor_Bot/personal_mentor.md)
+- [Подробное описание и Схема workflow](./Personal_Mentor_Bot/personal_mentor.pdf)
 
 
 ---
@@ -141,7 +141,7 @@ AI/ML:         Google Gemini 2.5 Flash, LangChain Memory
 - **Контекстные ответы** с учетом истории диалога
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Code_Bot/coder_bot.md)
+- [Подробное описание и Схема workflow](./Code_Bot/coder_bot.pdf)
 
 
 ---
@@ -173,7 +173,7 @@ AI/ML:         Google Gemini 2.5 Flash, LangChain Memory
 - Время на создание спецификации: **5 минут вместо 2 часов**
 
 #### 🔗 Документация:
-- [Подробное описание и Схема workflow](./Engineer_Bot/engineer_bot.md)
+- [Подробное описание и Схема workflow](./Engineer_Bot/engineer_bot.pdf)
 
 ---
 
@@ -390,9 +390,8 @@ Data tables:       PostgreSQL
 
 #### 🔗 Документация:
 
-- [Схема бота](./Driver_Bot/driver_bot.md)
+- [Схема бота](./Driver_Bot/driver_bot.pdf)
 
-- [Схема базы данных](./Driver_Bot/image/download_file_to_vdb.png)
 
 ---
 
